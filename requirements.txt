@@ -3,8 +3,8 @@ dash_table==4.3.0
 certifi==2018.11.29
 chardet==3.0.4
 Click==7.0
-dash==0.36.0
-dash-core-components==0.18.3
+dash==0.18.3
+dash-core-components==0.13.0
 dash-html-components==0.8.0
 dash-renderer==0.11.0
 decorator==4.3.2
