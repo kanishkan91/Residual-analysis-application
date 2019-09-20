@@ -4,7 +4,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
-from dash-table import DataTable
+from dash_table import DataTable
 from plotly import tools
 
 #Declare application
