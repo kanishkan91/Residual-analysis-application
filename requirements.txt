@@ -184,4 +184,4 @@ xlrd==1.2.0
 XlsxWriter==1.1.2
 xlwt==1.3.0
 zict==0.1.3
-dash-table==4.3.0
+dash_table==4.3.0
