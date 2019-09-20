@@ -276,7 +276,7 @@ def update_timeseries(hoverData,value):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    application.run_server(debug=True)
 
 
 
