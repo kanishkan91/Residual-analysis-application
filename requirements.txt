@@ -131,8 +131,6 @@ pyparsing==2.2.0
 PySocks==1.6.8
 pytz==2018.7
 PyWavelets==1.0.0
-pywin32==223
-pywinpty==0.5.4
 PyYAML==3.13
 pyzmq==17.1.2
 QtAwesome==0.4.4
