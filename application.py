@@ -4,7 +4,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
-import dash_table
+from dash-table import DataTable
 from plotly import tools
 
 #Declare application
@@ -91,7 +91,7 @@ app.layout = html.Div([html.Div(
     html.Br(),
     html.Div(id='result',
              style={'display': 'inline-block', 'width': '30%', 'float': 'right', 'height': '50px', 'font': '20'}),
-    html.Div(dash_table.DataTable(id='table1'),style={'display': 'inline-block', 'width': '30%', 'float': 'right', 'height': '150px'}),
+    html.Div(DataTable(id='table1'),style={'display': 'inline-block', 'width': '30%', 'float': 'right', 'height': '150px'}),
 
 
 ])
