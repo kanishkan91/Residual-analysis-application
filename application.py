@@ -6,6 +6,7 @@ import plotly.graph_objs as go
 import pandas as pd
 from dash_table import DataTable
 from plotly import tools
+from dash.dependencies import Input, Output
 
 #Declare application
 app=dash.Dash(__name__)
