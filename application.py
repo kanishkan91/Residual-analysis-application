@@ -22,8 +22,8 @@ app.layout = html.Div([html.Div(
         dcc.Markdown(
             '''
             ### Exploring multi dimensional residual calculations using a python function and dashboard
-            The below visualization app allows the user to explore residuals for different variables using GDP per capita at PPP as the IV, using a specailized function described below . 
-            For the code, please visit my [github]("https://github.com/kanishkan91/Py-Dash-GlobalDisplacementswithHoverFunctionality") page.
+            The below visualization app allows the user to explore residuals for 5 different variables using GDP per capita at PPP as the IV, using a specailized function described below . 
+            For the code, please visit my [github]("https://github.com/kanishkan91/Residual-analysis-application") page.
             Use the slider under the plot to change the year.
             '''.replace('  ', ''),
             className='eight columns offset-by-three'
@@ -77,13 +77,15 @@ app.layout = html.Div([html.Div(
                              
 1. The residuals and the resultant statistics are calculated using the GenerateResiduals function.
 
-2. The 3D scatter plot can be used to explore the IV (GDP per capita), the selected DV and the residuals themselves.
+2. Use the drop down to select any variable. Currently this application displays results for 5 different human capital variables.
 
-3. The color bar shows the range of the residuals which is technically a 4th dimension.
+3. The 3D scatter plot can be used to explore the IV (GDP per capita), the selected DV and the residuals themselves.
 
-4. The table in the right hand corner shows different summary stats like the R-Squared, standard error, co-efficients and the n.
+4. The color bar shows the range of the residuals which is technically a 4th dimension.
 
-5. Finally, the user can hover over any country and see the predicted vs the actual over time.'''''
+5. The table in the right hand corner shows different summary stats like the R-Squared, standard error, co-efficients and the n.
+
+6. Finally, the user can hover over any country and see the predicted vs the actual over time.'''''
               '''
             ''''',
         style={'display': 'inline-block', 'width': '30%', 'float': 'right', 'height': '150px'}
