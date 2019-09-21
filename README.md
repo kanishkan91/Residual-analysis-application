@@ -1,5 +1,6 @@
 # Multi dimensional residual analysis application in Python Dash.
 Author- Kanishka Narayan
+
 Contact- kanishkan91@gmail.com
 
 Residuals are widely used as a part of statistical analysis. However, there are various dimensions that are available to analyze residuals such as the statistical relationships (relationships with different variables), temporal dimensions (the predicted vs actual value over time), cross-sectional dimensions (the value of individual observations) and metrics over time (summary stats over time). 
