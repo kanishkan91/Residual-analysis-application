@@ -33,10 +33,12 @@ The user can manipulate the GenerateResidualTimeSeries function to generate resi
 This application is deployed on Heroku here- https://residualanalysisfinal.herokuapp.com/ and can also be run locally. If you would like to run this locally, just make one smal change to the application.py file as below,
 
 Change below, 
+
 if __name__ == '__main__':
     application.run_server(debug=True)
 
 to,
+
 if __name__ == '__main__':
     app.run_server(debug=True)
 
